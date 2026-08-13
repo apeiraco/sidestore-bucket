@@ -1,0 +1,10 @@
+{
+  "name": "Apeiraco SideStore Bucket",
+  "identifier": "com.aitiotekt.sidestore",
+  "subtitle": "Verified iOS sideloading apps",
+  "description": "Automatically maintained stable releases verified against upstream IPA metadata.",
+  "iconURL": "https://raw.githubusercontent.com/outposts-project/outposts/main/assets/icons/logo-512.png",
+  "sourceURL": "https://sidestore-bucket.apeiraco.com/apps.json",
+  "website": "https://sidestore-bucket.apeiraco.com/",
+  "nsfw": true
+}

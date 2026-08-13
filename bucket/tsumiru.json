@@ -1,0 +1,13 @@
+{
+  "name": "Tsumiru",
+  "bundleIdentifier": "com.suwayomi.tachideskSorayomi",
+  "developerName": "Suwayomi",
+  "localizedDescription": "A native manga and manhwa reader for Suwayomi-Server with offline download support.",
+  "iconURL": "https://raw.githubusercontent.com/Suwayomi/Suwayomi-Tsumiru/main/assets/icons/launcher/tsumiru_icon.png",
+  "category": "entertainment",
+  "releaseNotes": {
+    "v1.3.3": "Shows setup progress, improves custom header controls, and fixes large library pagination, server address retention, connection checks, and sign-in visibility."
+  },
+  "checkver": { "github": "Suwayomi/Suwayomi-Tsumiru" },
+  "autoupdate": { "assetRegex": "^tsumiru-v[0-9.]+-ios\\.ipa$" }
+}

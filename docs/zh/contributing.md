@@ -1,0 +1,1 @@
+../../CONTRIBUTING_CN.md

@@ -1,0 +1,11 @@
+pnpm-lock.yaml
+apps.json
+bucket.lock.json
+docs/apps.md
+docs/zh/apps.md
+docs/public/apps.json
+node_modules
+temp
+docs/.vitepress/cache
+docs/.vitepress/.temp
+docs/.vitepress/dist

@@ -1,0 +1,35 @@
+{
+  "name": "@apeiraco/sidestore-bucket",
+  "version": "0.1.0",
+  "private": true,
+  "description": "An automatically maintained iOS sideloading source",
+  "repository": "github:apeiraco/sidestore-bucket",
+  "type": "module",
+  "scripts": {
+    "bucket": "node scripts/bucket-cli.ts",
+    "test": "node --test scripts/tests/*.test.ts",
+    "check": "pnpm check:code && pnpm test && pnpm bucket validate && pnpm bucket build --check",
+    "check:code": "tsc --noEmit && oxlint && oxfmt --ignore-path .gitignore --ignore-path .oxfmtignore --check",
+    "fmt": "oxfmt --ignore-path .gitignore --ignore-path .oxfmtignore",
+    "docs:build": "node scripts/bucket-cli.ts docs && vitepress build docs",
+    "docs:dev": "node scripts/bucket-cli.ts docs && vitepress dev docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "dependencies": {
+    "clipanion": "4.0.0-rc.4",
+    "fflate": "^0.8.2",
+    "octokit": "^5.0.5",
+    "plist": "^5.0.0",
+    "zod": "^4.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.0.0",
+    "oxfmt": "^0.42.0",
+    "oxlint": "^1.57.0",
+    "typescript": "^6.0.2",
+    "vitepress": "^1.6.4"
+  },
+  "engines": {
+    "node": ">=26"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "name": "HaKa Comic",
+  "bundleIdentifier": "com.github.raoxwup.hakacomic",
+  "developerName": "raoxwup",
+  "localizedDescription": "A clean, ad-free, third-party cross-platform PicACG client.",
+  "iconURL": "https://raw.githubusercontent.com/raoxwup/haka_comic/main/assets/icons/ios/AppIcon.png",
+  "category": "entertainment",
+  "releaseNotes": {
+    "1.2.7": "Fixes issue #169, adds a WebDAV password visibility toggle, and adds a configurable download path."
+  },
+  "checkver": { "github": "raoxwup/haka_comic" },
+  "autoupdate": { "assetRegex": "^no-codesign-ios-v[0-9.]+\\.ipa$" }
+}

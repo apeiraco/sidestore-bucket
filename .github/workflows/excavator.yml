@@ -1,0 +1,72 @@
+name: Excavator
+
+env:
+  MISE_CONFIG_FILE: mise.ci.toml
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "20 */4 * * *"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: bucket-update
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    outputs:
+      revision: ${{ steps.commit.outputs.revision }}
+      changed: ${{ steps.commit.outputs.changed }}
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: main
+      - uses: jdx/mise-action@v4
+      - name: Install dependencies
+        run: mise exec -- pnpm install --frozen-lockfile
+      - name: Test updater
+        run: mise exec -- just test
+      - name: Update source
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: mise exec -- just update
+      - name: Check complete output
+        run: |
+          mise exec -- just check
+          mise exec -- just build-docs
+      - name: Commit generated changes
+        id: commit
+        shell: bash
+        run: |
+          set -euo pipefail
+          git add -- bucket.lock.json apps.json docs/apps.md docs/zh/apps.md
+          if git diff --cached --quiet; then
+            echo 'changed=false' >> "$GITHUB_OUTPUT"
+          else
+            git config user.name 'github-actions[bot]'
+            git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+            git commit -m 'chore(bucket): update stable iOS releases'
+            git push origin HEAD:main
+            echo 'changed=true' >> "$GITHUB_OUTPUT"
+          fi
+          echo "revision=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+      - name: Clean downloaded IPAs
+        if: always()
+        run: mise exec -- just clean
+
+  docs:
+    needs: update
+    if: needs.update.outputs.changed == 'true'
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    uses: ./.github/workflows/docs.yml
+    with:
+      revision: ${{ needs.update.outputs.revision }}

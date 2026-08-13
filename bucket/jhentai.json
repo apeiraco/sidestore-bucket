@@ -1,0 +1,13 @@
+{
+  "name": "JHenTai",
+  "bundleIdentifier": "top.jtmonster.jhentai",
+  "developerName": "jiangtian616",
+  "localizedDescription": "A cross-platform manga app for e-hentai and exhentai built with Flutter.",
+  "iconURL": "https://raw.githubusercontent.com/jiangtian616/JHenTai/master/assets/icon/JHenTai_512.png",
+  "category": "entertainment",
+  "releaseNotes": {
+    "v8.0.16+334": "Improves tap-zone behavior for right-to-left reading, restores long download titles correctly, reduces detail-page image preloading, and refreshes the interface after network setting changes."
+  },
+  "checkver": { "github": "jiangtian616/JHenTai" },
+  "autoupdate": { "assetRegex": "^JHenTai_[0-9.]+\\+[0-9]+\\.ipa$" }
+}

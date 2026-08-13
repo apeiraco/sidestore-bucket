@@ -1,0 +1,11 @@
+node_modules/
+temp/*
+!temp/.gitkeep
+docs/.vitepress/cache/
+docs/.vitepress/.temp/
+docs/.vitepress/dist/
+docs/public/apps.json
+.env
+.env.*
+!.env.example
+.DS_Store
