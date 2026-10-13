@@ -83,28 +83,29 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.3.3",
-          "buildVersion": "58",
-          "date": "2026-09-22T07:11:23Z",
-          "localizedDescription": "Shows setup progress, improves custom header controls, and fixes large library pagination, server address retention, connection checks, and sign-in visibility.",
-          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.3.3/tsumiru-v1.3.3-ios.ipa",
-          "size": 19721191,
+          "version": "1.4.0",
+          "buildVersion": "59",
+          "date": "2026-10-13T05:54:44Z",
+          "localizedDescription": "Updates Tsumiru to version 1.4.0.",
+          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.4.0/tsumiru-v1.4.0-ios.ipa",
+          "size": 16222984,
           "minOSVersion": "15.0",
-          "sha256": "0b1f9b9333b4d0902df426ba7cd3452e80fc5b68bcc546cd7362403c03304ad3"
+          "sha256": "56329b704b4e9f2771a3daeca3dae180f37de3d77ed708fec06dc9f71b7155a9"
         }
       ],
       "appPermissions": {
         "entitlements": [],
         "privacy": {
+          "NSLocalNetworkUsageDescription": "Find and connect to your Suwayomi server on your local network.",
           "NSPhotoLibraryAddUsageDescription": "Save manga pages to your photo library.",
           "NSPhotoLibraryUsageDescription": "Save manga pages to your photo library."
         }
       },
-      "version": "1.3.3",
-      "versionDate": "2026-09-22T07:11:23Z",
-      "versionDescription": "Shows setup progress, improves custom header controls, and fixes large library pagination, server address retention, connection checks, and sign-in visibility.",
-      "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.3.3/tsumiru-v1.3.3-ios.ipa",
-      "size": 19721191
+      "version": "1.4.0",
+      "versionDate": "2026-10-13T05:54:44Z",
+      "versionDescription": "Updates Tsumiru to version 1.4.0.",
+      "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.4.0/tsumiru-v1.4.0-ios.ipa",
+      "size": 16222984
     }
   ],
   "news": []
