@@ -50,14 +50,14 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "8.0.16",
-          "buildVersion": "334",
-          "date": "2026-09-09T13:55:14Z",
-          "localizedDescription": "Improves tap-zone behavior for right-to-left reading, restores long download titles correctly, reduces detail-page image preloading, and refreshes the interface after network setting changes.",
-          "downloadURL": "https://github.com/jiangtian616/JHenTai/releases/download/v8.0.16%2B334/JHenTai_8.0.16%2B334.ipa",
-          "size": 13025015,
+          "version": "8.0.17",
+          "buildVersion": "338",
+          "date": "2026-10-21T15:13:16Z",
+          "localizedDescription": "Updates JHenTai to version 8.0.17.",
+          "downloadURL": "https://github.com/jiangtian616/JHenTai/releases/download/v8.0.17%2B339/JHenTai_8.0.17%2B338.ipa",
+          "size": 13025995,
           "minOSVersion": "13.0",
-          "sha256": "fb2710240451a884d843bf2b3049937f15b7088d44443b0146ce9afb42abe236"
+          "sha256": "1ae1a93469d4d205658b11f3479d479f72fdb83b9c8df68a4f36133ab921572e"
         }
       ],
       "appPermissions": {
@@ -68,11 +68,11 @@
           "NSPhotoLibraryUsageDescription": "Pick up image to search"
         }
       },
-      "version": "8.0.16",
-      "versionDate": "2026-09-09T13:55:14Z",
-      "versionDescription": "Improves tap-zone behavior for right-to-left reading, restores long download titles correctly, reduces detail-page image preloading, and refreshes the interface after network setting changes.",
-      "downloadURL": "https://github.com/jiangtian616/JHenTai/releases/download/v8.0.16%2B334/JHenTai_8.0.16%2B334.ipa",
-      "size": 13025015
+      "version": "8.0.17",
+      "versionDate": "2026-10-21T15:13:16Z",
+      "versionDescription": "Updates JHenTai to version 8.0.17.",
+      "downloadURL": "https://github.com/jiangtian616/JHenTai/releases/download/v8.0.17%2B339/JHenTai_8.0.17%2B338.ipa",
+      "size": 13025995
     },
     {
       "name": "Tsumiru",
