@@ -29,20 +29,20 @@
     },
     "jhentai": {
       "repo": "jiangtian616/JHenTai",
-      "tag": "v8.0.17+339",
-      "releaseID": 419706360,
-      "assetID": 662897821,
-      "assetUpdatedAt": "2026-10-21T15:13:23Z",
+      "tag": "v8.0.18",
+      "releaseID": 422018172,
+      "assetID": 669577207,
+      "assetUpdatedAt": "2026-10-23T15:40:59Z",
       "bundleIdentifier": "top.jtmonster.jhentai",
       "version": {
-        "version": "8.0.17",
-        "buildVersion": "338",
-        "date": "2026-10-21T15:13:16Z",
-        "localizedDescription": "Updates JHenTai to version 8.0.17.",
-        "downloadURL": "https://github.com/jiangtian616/JHenTai/releases/download/v8.0.17%2B339/JHenTai_8.0.17%2B338.ipa",
-        "size": 13025995,
+        "version": "8.0.18",
+        "buildVersion": "341",
+        "date": "2026-10-23T15:40:51Z",
+        "localizedDescription": "Updates JHenTai to version 8.0.18.",
+        "downloadURL": "https://github.com/jiangtian616/JHenTai/releases/download/v8.0.18/JHenTai_8.0.18%2B341.ipa",
+        "size": 13025793,
         "minOSVersion": "13.0",
-        "sha256": "1ae1a93469d4d205658b11f3479d479f72fdb83b9c8df68a4f36133ab921572e"
+        "sha256": "f1c13d27d178a8c21c06a83ce6a98a88077cb8ab3e8fe02cffbfd5517f5ecd18"
       },
       "appPermissions": {
         "entitlements": [],
