@@ -83,14 +83,14 @@
       "category": "entertainment",
       "versions": [
         {
-          "version": "1.6.0",
-          "buildVersion": "5001",
-          "date": "2026-10-26T04:35:41Z",
-          "localizedDescription": "Updates Tsumiru to version 1.6.0.",
-          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.0/tsumiru-v1.6.0-ios.ipa",
-          "size": 18262510,
+          "version": "1.6.1",
+          "buildVersion": "5002",
+          "date": "2026-10-27T07:47:54Z",
+          "localizedDescription": "Updates Tsumiru to version 1.6.1.",
+          "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.1/tsumiru-v1.6.1-ios.ipa",
+          "size": 18278152,
           "minOSVersion": "15.0",
-          "sha256": "2a0517e379fee582a10519a0de28c75dadaebd930da358083c876be444f97752"
+          "sha256": "133a584d6ab1b8124b28fd6db5dea5856ac512a8462e14de8cfea6310aaad0f2"
         }
       ],
       "appPermissions": {
@@ -101,11 +101,11 @@
           "NSPhotoLibraryUsageDescription": "Save manga pages to your photo library."
         }
       },
-      "version": "1.6.0",
-      "versionDate": "2026-10-26T04:35:41Z",
-      "versionDescription": "Updates Tsumiru to version 1.6.0.",
-      "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.0/tsumiru-v1.6.0-ios.ipa",
-      "size": 18262510
+      "version": "1.6.1",
+      "versionDate": "2026-10-27T07:47:54Z",
+      "versionDescription": "Updates Tsumiru to version 1.6.1.",
+      "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.1/tsumiru-v1.6.1-ios.ipa",
+      "size": 18278152
     }
   ],
   "news": []
