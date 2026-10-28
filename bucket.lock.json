@@ -55,20 +55,20 @@
     },
     "tsumiru": {
       "repo": "Suwayomi/Suwayomi-Tsumiru",
-      "tag": "v1.6.1",
-      "releaseID": 425149016,
-      "assetID": 680845424,
-      "assetUpdatedAt": "2026-10-27T07:43:31Z",
+      "tag": "v1.6.2",
+      "releaseID": 426194559,
+      "assetID": 683566334,
+      "assetUpdatedAt": "2026-10-28T02:26:12Z",
       "bundleIdentifier": "com.suwayomi.tachideskSorayomi",
       "version": {
-        "version": "1.6.1",
-        "buildVersion": "5002",
-        "date": "2026-10-27T07:47:54Z",
-        "localizedDescription": "Updates Tsumiru to version 1.6.1.",
-        "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.1/tsumiru-v1.6.1-ios.ipa",
-        "size": 18278152,
+        "version": "1.6.2",
+        "buildVersion": "5003",
+        "date": "2026-10-28T02:29:20Z",
+        "localizedDescription": "Updates Tsumiru to version 1.6.2.",
+        "downloadURL": "https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.2/tsumiru-v1.6.2-ios.ipa",
+        "size": 18312147,
         "minOSVersion": "15.0",
-        "sha256": "133a584d6ab1b8124b28fd6db5dea5856ac512a8462e14de8cfea6310aaad0f2"
+        "sha256": "add5ed093d14aa1f39acfba54dac906614db705e494d42a9c27438d3749ff1c5"
       },
       "appPermissions": {
         "entitlements": [],
