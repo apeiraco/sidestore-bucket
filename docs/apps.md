@@ -9,7 +9,7 @@ Only the latest stable version of each app is published.
 | App | Version (build) | Minimum iOS | Download size | Download |
 | --- | --- | --- | --- | --- |
 | [HaKa Comic](https://github.com/raoxwup/haka_comic) | 1.2.7 (1.2.7) | 13.0 | 12.6 MiB | [IPA](https://github.com/raoxwup/haka_comic/releases/download/1.2.7/no-codesign-ios-v1.2.7.ipa) |
-| [JHenTai](https://github.com/jiangtian616/JHenTai) | 8.0.18 (341) | 13.0 | 12.4 MiB | [IPA](https://github.com/jiangtian616/JHenTai/releases/download/v8.0.18/JHenTai_8.0.18%2B341.ipa) |
+| [JHenTai](https://github.com/jiangtian616/JHenTai) | 8.0.18 (344) | 13.0 | 12.4 MiB | [IPA](https://github.com/jiangtian616/JHenTai/releases/download/v8.0.18/JHenTai_8.0.18%2B344.ipa) |
 | [Tsumiru](https://github.com/Suwayomi/Suwayomi-Tsumiru) | 1.6.3 (5004) | 15.0 | 17.6 MiB | [IPA](https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.3/tsumiru-v1.6.3-ios.ipa) |
 
 The source links directly to upstream releases. IPA files are not rehosted or re-signed.

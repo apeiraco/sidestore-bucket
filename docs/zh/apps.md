@@ -9,7 +9,7 @@
 | 应用 | 版本（构建） | 最低 iOS 版本 | 下载大小 | 下载 |
 | --- | --- | --- | --- | --- |
 | [HaKa Comic](https://github.com/raoxwup/haka_comic) | 1.2.7 (1.2.7) | 13.0 | 12.6 MiB | [IPA](https://github.com/raoxwup/haka_comic/releases/download/1.2.7/no-codesign-ios-v1.2.7.ipa) |
-| [JHenTai](https://github.com/jiangtian616/JHenTai) | 8.0.18 (341) | 13.0 | 12.4 MiB | [IPA](https://github.com/jiangtian616/JHenTai/releases/download/v8.0.18/JHenTai_8.0.18%2B341.ipa) |
+| [JHenTai](https://github.com/jiangtian616/JHenTai) | 8.0.18 (344) | 13.0 | 12.4 MiB | [IPA](https://github.com/jiangtian616/JHenTai/releases/download/v8.0.18/JHenTai_8.0.18%2B344.ipa) |
 | [Tsumiru](https://github.com/Suwayomi/Suwayomi-Tsumiru) | 1.6.3 (5004) | 15.0 | 17.6 MiB | [IPA](https://github.com/Suwayomi/Suwayomi-Tsumiru/releases/download/v1.6.3/tsumiru-v1.6.3-ios.ipa) |
 
 本软件源直接链接到上游发布文件，不会重新托管或签名 IPA。
